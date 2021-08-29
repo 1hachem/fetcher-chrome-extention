@@ -4,5 +4,5 @@
 </p>
 fetcher is chrome extension that adds a context menu item that looks up selected text on different sites.
 
-* still under developement.
+[x] still under developement.
 
