@@ -9,6 +9,7 @@ fetcher is chrome extension that adds a context menu item that search for select
 ![load](https://user-images.githubusercontent.com/84399880/131568608-c8a4da2c-e386-4f9c-a88d-18b83a543bb7.png)
 
 * make sure to enable Developer mode on chrome.
+* load unpacked
 
 ## add search url
 
