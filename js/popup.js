@@ -2,7 +2,7 @@ var new_site = document.getElementById('site');
 var add_button = document.getElementById('add');
 
 //refresh the extention
-chrome.runtime.requestUpdateCheck(function(){});
+//chrome.runtime.requestUpdateCheck(function(){});
 
 chrome.runtime.onMessage.addListener(handler);
 
