@@ -72,6 +72,8 @@ function search(info,tab){
         for (const element of sites) {
         if (info.menuItemId == contextMenus[element]){
           search_message = info.selectionText;
+          //refresh
+          chrome.runtime.requestUpdateCheck(function(){});
           chrome.tabs.create({
             url: element.concat(search_message)
           });

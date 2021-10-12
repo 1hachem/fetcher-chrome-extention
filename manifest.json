@@ -1,6 +1,6 @@
 {
     "name": "fetch-this",
-    "description": "fast right click search",
+    "description": "fast right click search, developed by 0Hashim ",
     "version": "0.1",
     "manifest_version": 3,
     "action":{
