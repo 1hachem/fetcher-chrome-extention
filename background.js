@@ -3,6 +3,9 @@ var search_message;
 
 chrome.storage.sync.get("sites",function(data){
     sites = data.sites;
+    if (sites === undefined || sites.length == 0){
+      sites = [];
+    }
 });
 
 chrome.runtime.onMessage.addListener(handler);
